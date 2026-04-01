@@ -1,0 +1,11 @@
+set(ModuleName App)
+project(${ModuleName} VERSION 1.0.0 LANGUAGES C CXX)
+
+file(GLOB_RECURSE source_files
+    **.cpp
+    **.hpp
+)
+
+add_library(${ModuleName} STATIC)
+target_sources(${ModuleName} PRIVATE ${source_files})
+target_include_directories(${ModuleName} PUBLIC "./" "thirdparty")

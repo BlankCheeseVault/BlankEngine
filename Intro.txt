@@ -1,0 +1,30 @@
+
+Making a game engine 
+
+- VS Code
+- Mingw
+- CMake
+
+- Code based, C++
+- Mainly graphics focused
+
+- Sokol - graphics api
+- Lightweight, single headers
+- STB style
+- cross platform
+- Does not support vulkan (in development)
+- I like it :)
+
+> engine
+    > window
+    > renderer
+    > physics
+    > etc.
+
+game 
+> game code
+> engine
+
+game 
+> game code
+> engine
