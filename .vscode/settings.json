@@ -1,0 +1,4 @@
+{
+    "workbench.editor.showTabs": "multiple",
+    "terminal.integrated.cwd": "${workspaceFolder}/bin",
+}

@@ -28,3 +28,21 @@ game
 game 
 > game code
 > engine
+
+// ------------------------------------------------------------------------------------------------ //
+Devlog 2 
+
+Triangles, Shaders & Textures
+
+Pass
+> What/Where to draw to
+> Screen, render textures
+
+Pipeline
+> How to draw to the pass
+> Shaders - programs that tell the gpu how to draw
+> bindings - used by shaders
+
+bindings
+> data
+> vertices, indices, textures, position, rotation, etc.
